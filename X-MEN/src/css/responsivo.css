@@ -37,3 +37,9 @@
         margin: 20px auto;
     }
 } 
+
+@media screen  and (min-width: 1120px) and (max-width: 1400px){
+    .selecao-de-personagens{
+        margin-top: -40px;
+    }
+}
