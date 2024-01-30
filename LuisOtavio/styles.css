@@ -2,8 +2,8 @@ body {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     margin: 0;
     padding: 0;
-    background-color: #f7f7f7;
-    color: #333;
+    background-color: #f7f7f7; /* Cor de fundo para o corpo da página */
+    color: #333; /* Cor do texto padrão */
     display: flex;
     justify-content: center;
     align-items: center;
@@ -12,57 +12,57 @@ body {
 
 .container {
     text-align: center;
-    background-color: #fff;
+    background-color: #fff; /* Cor de fundo para o contêiner principal */
     padding: 20px;
     border-radius: 10px;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Sombra suave */
 }
 
 h1 {
-    color: #3498db;
+    color: #3498db; /* Cor do cabeçalho principal */
 }
 
 /* Pseudo-classe para parágrafo normal */
 .normal {
-    color: #555;
+    color: #555; /* Cor de texto diferente para parágrafo normal */
 }
 
 /* Pseudo-classe para efeito de hover em parágrafo */
 .hover:hover {
-    background-color: #f2f2f2;
+    background-color: #f2f2f2; /* Mudança de cor ao passar o mouse */
 }
 
 /* Pseudo-classe para link não visitado */
 .link:link {
-    color: #5bdb34;
-    text-decoration: none;
+    color: #ccdc61;
+    text-decoration: none; /* Remover sublinhado padrão */
 }
 
 /* Pseudo-classe para link visitado */
 .visited:visited {
-    color: #4494ad;
+    color: #448cad;
 }
 
 /* Pseudo-classe para input de texto com foco */
 .input:focus {
-    border: 2px solid #3498db;
-    outline: none;
+    border: 2px solid #3498db; /* Destacar a borda ao focar */
+    outline: none; /* Remover contorno padrão */
 }
 
 /* Pseudo-classe para checkbox marcado e alteração de cor no rótulo associado */
 .checkbox:checked + .label {
-    color: #27ae60;
+    color: #27ae60; /* Cor do texto ao marcar o checkbox */
 }
 
 /* Pseudo-classe para radio button marcado e alteração de cor no rótulo associado */
 .radio:checked + .label {
-    color: #e74c3c;
+    color: #e74c3c; /* Cor do texto ao selecionar o radio button */
 }
 
 /* Pseudo-classe para botão ativo (clique) */
 .button:active {
-    background-color: #e74c3c;
-    color: white;
+    background-color: #e74c3c; /* Mudança de cor ao clicar */
+    color: white; /* Cor do texto no estado ativo */
 }
 
 /* Estilização para botão ativo */
@@ -73,42 +73,48 @@ h1 {
 
 /* Pseudo-classe para select com foco */
 .select:focus {
-    border: 2px solid #3498db;
+    border: 2px solid #3498db; /* Destacar a borda ao focar no select */
     outline: none;
 }
 
 /* Estilização para listas com cores alternadas em itens ímpares */
 .list li {
     padding: 10px;
-    list-style: none;
+    list-style: none; /* Remover marcadores de lista padrão */
 }
 
 .list li:nth-child(odd) {
-    background-color: #ecf0f1;
+    background-color: #ecf0f1; /* Cor de fundo alternada para itens ímpares */
 }
 
 .list li.special {
-    color: #e74c3c;
-    font-weight: bold;
+    color: #e74c3c; /* Cor especial para itens marcados como 'special' */
+    font-weight: bold; /* Texto em negrito para itens marcados como 'special' */
 }
 
 /* Exemplo de outras pseudoclasses */
+
+/* Adicionando uma borda superior para o primeiro item da lista */
 .list li:first-child {
     border-top: 2px solid #3498db;
 }
 
+/* Adicionando uma borda inferior para o último item da lista */
 .list li:last-child {
     border-bottom: 2px solid #3498db;
 }
 
+/* Rotacionando cada segundo item da lista */
 .list li:nth-child(2n) {
-    transform: rotate(-5deg);
+    transform: rotate(-5deg); /* Rotação de -5 graus */
 }
 
+/* Alterando o cursor para apontador nos itens que não são 'special' */
 .list li:not(.special) {
-    cursor: pointer;
+    cursor: pointer; /* Mudando o cursor para apontador */
 }
 
+/* Escondendo elementos li que estão vazios */
 .list li:empty {
-    display: none;
+    display: none; /* Escondendo elementos vazios */
 }
