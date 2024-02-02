@@ -23,6 +23,7 @@ body{
 }
 
 .menu ul li:last-child{
+    font-size: small;
     float:right;
     padding-right: 40px;
     margin: 0;
