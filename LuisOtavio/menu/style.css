@@ -19,7 +19,7 @@ body{
     padding: 20px;
 
     background-color: #000210e0;
-    box-shadow: 5px 5px 10px #00000074;
+    box-shadow: 0px 0px 10px 5px #00000074;
 }
 
 .menu ul li:last-child{
@@ -61,7 +61,7 @@ main{
     width: 100%;
     
     border-radius: 20px;
-    box-shadow: 5px 5px 10px #00000074;
+    box-shadow: 0px 0px 10px 5px #00000074;
 }
 
 .time img{
