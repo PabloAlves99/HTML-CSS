@@ -13,7 +13,7 @@ body{
     background-color: rgba(0, 155, 245, 0.23);
 }
 
-.menu{
+.header{
     position: fixed;
     width: 100%;
     padding: 20px;
