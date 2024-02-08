@@ -1,5 +1,5 @@
-# HTML-CSS
-<p>Neste repositório, compartilho alguns dos meus projetos de estudo em HTML, CSS e um pouco de JavaScript. Abaixo estão os links para cada projeto:</p>
+# Estudo de HTML-CSS
+Neste repositório, compartilho alguns dos meus projetos de estudo em HTML, CSS e um pouco de JavaScript. Abaixo estão os links para cada projeto:
 
 [Landing-page Luis Otávio](https://pabloalves99.github.io/HTML-CSS/LuisOtavio/landing-page/index.html)</br>
 [X-MEN](https://pabloalves99.github.io/HTML-CSS/X-MEN/index.html)</br>
