@@ -182,12 +182,6 @@ body .full-width {
     justify-content: center;
 }
 
-.intro-text h2 {
-    font-size: 6rem;
-    margin-bottom: 5rem;
-    line-height: 1.2;
-}
-
 .intro-img img,
 .intro-img svg {
     max-width: 100%;
@@ -201,7 +195,7 @@ body .full-width {
     display: flex;
     flex-flow: column nowrap;
     justify-content: center;
-    height: 100vh;
+    min-height: 100vh;
     text-align: center;
 }
 
