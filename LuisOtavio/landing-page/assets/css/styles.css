@@ -97,7 +97,11 @@ p {
     min-height: 100vh;
 }
 
-.full-width {
+.menu-spacing {
+    height: 6.5rem;
+}
+
+body .full-width {
     width: 100%;
     flex: 1 1 100%;
 }
@@ -158,10 +162,6 @@ p {
 .menu ul li a:hover::after {
     width: 50%;
     left: 25%;
-}
-
-.menu-spacing {
-    height: 6.5rem;
 }
 
 /* INTRO */
