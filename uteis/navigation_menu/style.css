@@ -16,7 +16,7 @@ body{
 .navegacao{
     width: 100%;
     height: 70px;
-    background-color: #fe0101;
+    background-color: #FE4701;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -65,7 +65,7 @@ body{
 
 .navegacao ul li.ativo a .icone{
     transform: translateY(-35px);
-    color: #fe0101;
+    color: #FE4701;
 }
 
 .navegacao ul li.ativo a .texto{
@@ -81,7 +81,7 @@ body{
     position: absolute;
     top: -50%;
     transition: .5s;
-    border: 3px solid #fe0101;
+    border: 3px solid #FE4701;
 }
 
 .navegacao ul li:nth-child(1).ativo ~ .indicador{
